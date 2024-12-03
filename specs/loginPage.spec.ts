@@ -5,7 +5,7 @@ test.describe("Feedback page tests", () => {
     await page.goto("/");
   });
 
-  test.only("Verify that user can login and logout of the app", async ({
+  test("Verify that user can login and logout of the app", async ({
     loginModal,
     userData,
   }) => {
