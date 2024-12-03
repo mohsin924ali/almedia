@@ -1,6 +1,6 @@
 import { fixtures as test } from "../fixture";
 
-test.describe("Feedback page tests", () => {
+test.describe("Login page tests", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto("/");
   });
